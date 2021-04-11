@@ -50,6 +50,9 @@ dependencies {
    compile 'org.grails.plugins:spring-security-core:3.2.3'
    ...
 
+### executando o script para criar usuario(User) e os papeis(Role)
+grails s2-quickstart divulga User Role
+
 
 
 
