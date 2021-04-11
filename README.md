@@ -42,7 +42,13 @@ run-app
 curl -i -H "Accept: application/json" localhost:8080/espaco
 
 
+## Instalando o Spring Security
 
+##### build.gradle
+dependencies {
+   ...
+   compile 'org.grails.plugins:spring-security-core:3.2.3'
+   ...
 
 
 
