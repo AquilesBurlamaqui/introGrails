@@ -12,13 +12,25 @@ Bem vindos a minha página tutorial sobre Grails.
 
 ### Criando API Rest
 
-grails create-app myapp --profile=rest-api
+grails create-app divulga --profile=rest-api
 
-cd myapp
+cd divulga
 
 grails
 
 create-domain-class espaco
+
+
+package divulga
+
+class Espaco {
+	String nome
+	String descricao
+
+    static constraints = {
+    }
+}
+
 
 
 
