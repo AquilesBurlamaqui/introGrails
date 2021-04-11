@@ -54,7 +54,7 @@ dependencies {
 grails s2-quickstart divulga User Role
 
 
-##### Bootstrap.groovy
+##### Bootstrap.groovy - criando usuarios iniciais
 ~~~ Java
 package divulga
 
