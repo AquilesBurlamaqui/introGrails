@@ -10,3 +10,6 @@ Bem vindos a minha página tutorial sobre Grails.
 #### 2 Instalar o JDK https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
 
+### Criando API Rest
+
+
