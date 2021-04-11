@@ -18,8 +18,9 @@ cd divulga
 
 grails
 
-create-domain-class espaco
+create-domain-class Espaco
 
+##### Espaco.groovy
 ~~~ java
 package divulga
 
@@ -31,6 +32,10 @@ class Espaco {
     }
 }
 ~~~
+
+generate-controller divulga.espaco
+
+
 
 
 
