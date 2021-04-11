@@ -54,5 +54,24 @@ dependencies {
 grails s2-quickstart divulga User Role
 
 
+##### Bootstrap.groovy
+~~~ Java
+package divulga
 
+class BootStrap {
+
+    def init = { servletContext ->
+    	def role1 = new Role(authority:"ROLE_ADMIN").save flush:true
+        def user1 = new User(username:"admin",password:"admin").save flush:true
+    	UserRole.create(user1,role1)
+
+    	def role2 = new Role(authority:"ROLE_USER").save flush:true
+		def user2 = new User(username:"user",password:"user").save flush:true
+		UserRole.create(user2,role2)
+    }
+    def destroy = {
+    }
+}
+
+~~~
 
