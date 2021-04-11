@@ -20,7 +20,7 @@ grails
 
 create-domain-class espaco
 
-
+~~~ java
 package divulga
 
 class Espaco {
@@ -30,7 +30,7 @@ class Espaco {
     static constraints = {
     }
 }
-
+~~~
 
 
 
