@@ -12,4 +12,7 @@ Bem vindos a minha página tutorial sobre Grails.
 
 ### Criando API Rest
 
+grails create-app myapp --profile=rest-api
+
+
 
