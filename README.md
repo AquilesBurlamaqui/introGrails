@@ -33,7 +33,11 @@ class Espaco {
 }
 ~~~
 
-generate-controller divulga.espaco
+generate-controller divulga.Espaco
+
+run-app
+
+
 
 
 
