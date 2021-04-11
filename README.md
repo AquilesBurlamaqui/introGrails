@@ -14,5 +14,11 @@ Bem vindos a minha página tutorial sobre Grails.
 
 grails create-app myapp --profile=rest-api
 
+cd myapp
+
+grails
+
+create-domain-class espaco
+
 
 
