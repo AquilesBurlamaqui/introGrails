@@ -80,3 +80,8 @@ class BootStrap {
 
 ~~~
 
+
+## Instalando o Spring Security Rest
+
+compile "org.grails.plugins:spring-security-rest:2.0.0.M2"
+
