@@ -39,7 +39,12 @@ generate-controller divulga.Espaco
 run-app
 
 ##### testando a api rest
+
+##### listando todos os espaços
 curl -i -H "Accept: application/json" localhost:8080/espaco
+
+##### cadastrando espaço
+cur-X POST localhost:8080/espaco  -H "Content-Type: application/json" -d "{\"nome\":\"camisa\",\"descricao\":\"camisa do trabalho\"}"
 
 
 ## Instalando o Spring Security
