@@ -44,8 +44,9 @@ run-app
 curl -i -H "Accept: application/json" localhost:8080/espaco
 
 ##### cadastrando espaço
+~~~
 curl -X POST localhost:8080/espaco  -H "Content-Type: application/json" -d "{\"nome\":\"camisa\",\"descricao\":\"camisa do trabalho\"}"
-
+~~~
 
 ## Instalando o Spring Security
 
