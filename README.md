@@ -41,7 +41,9 @@ run-app
 ##### testando a api rest
 
 ##### listando todos os espaços
+~~~
 curl -i -H "Accept: application/json" localhost:8080/espaco
+~~~
 
 ##### cadastrando espaço
 ~~~
